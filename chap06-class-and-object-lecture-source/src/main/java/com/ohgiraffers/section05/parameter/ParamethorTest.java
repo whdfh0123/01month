@@ -21,6 +21,7 @@ public class ParamethorTest {
 //        }
         System.out.println();
         iarr[0] = 99;
+        System.out.println();
         System.out.println("변경 후 배열의 값");
         for(int i : iarr){
             System.out.print(i+" "); //얕은 복사라 값이 달라져버림

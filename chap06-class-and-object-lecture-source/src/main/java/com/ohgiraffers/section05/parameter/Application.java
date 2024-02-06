@@ -6,9 +6,9 @@ public class Application {
         매개변수(parameter)로 사용 가능한 자료형
         1. 기번자료형
         2. 기본자료형 배열
-        3.클래스 자료형(사용자 정의 자료형)
-        4 클래스 자료형 배열(= 객체 배열)
-        5 .가변인자
+        3. 클래스 자료형(사용자 정의 자료형)
+        4. 클래스 자료형 배열(= 객체 배열)
+        5. 가변인자
          */
         ParamethorTest pt = new ParamethorTest();
         int num = 20;
@@ -16,12 +16,18 @@ public class Application {
         int[] iarr = new int[]{1,2,3,4,5};
             System.out.println("기본자료형 배열 전달인자로 전달하는 값 : "+iarr);
         pt.promaryTypeArrParramethor(iarr);
+        System.out.println();
 
         System.out.println("변경후 원본 배열의 값 출렷 : ");
         for (int i : iarr){
             System.out.print(i+" ");
         }
         System.out.println();
+
+
+
+
+        // RectAngle 클래스
         RectAngle r1 = new RectAngle(10, 10);
         System.out.println("클래스 자료형 전달인자로 전달하는 값 : "+r1);
         pt.classTypeParameter(r1);

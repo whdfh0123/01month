@@ -40,7 +40,15 @@ public class StudentVO {
     public char getGender(){
         return gender;
     }
+
+    public StudentVO(int grade, int classroom, String name, double height, char gender){
+        this.grade = grade;
+        this.classroom = classroom;
+        this.name = name;
+        this.height = height;
+        this.gender = gender;
+    }
     public void printlnformation(){
-        System.out.println(grade+classroom+name+height+gender);
+        System.out.println("학년 : "+grade+"\n"+"반 : "+classroom+"\n이름 : "+name+"\n키 : "+height+"\n성별 : "+gender);
     }
 }
