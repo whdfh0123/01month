@@ -16,6 +16,7 @@ public class Tiger extends Animal{
         System.out.println("호랑이 어흥");
     }
 
+    //호랑이의 새로운 능력 추가
     public void bite(){
         System.out.println("호랑이의 물어뜯기!");
     }

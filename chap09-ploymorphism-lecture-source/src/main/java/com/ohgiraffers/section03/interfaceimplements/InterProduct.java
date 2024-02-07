@@ -33,8 +33,8 @@ public interface InterProduct {
         System.out.println("InterProduct 클래스의 staticMethod 실행");
 
     }
-    // 또한 defau;t 키워드를 사용하면 non-static 메소드도 작성 가능하다 (이것도 추가된기능)
+    // 또한 default 키워드를 사용하면 non-static 메소드도 작성 가능하다 (이것도 추가된기능)
     public default void defaultMethod(){
-        System.out.println("Interproduct 클래스의 defaultMethod 호출될ㅁ");
+        System.out.println("Interproduct 클래스의 defaultMethod 호출될");
     }
 }

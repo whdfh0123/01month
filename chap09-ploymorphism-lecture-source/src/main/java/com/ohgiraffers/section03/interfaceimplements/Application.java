@@ -25,9 +25,7 @@ public class Application {
         // 오버라이딩을 하지 않으면 인터페이스의 default 메소드로 호출됨
         interProduct.defaultMethod();
 
-        /* static 메소드는 인터페이스명.메소드명(); 으로 호출함
-
-         */
+        /* static 메소드는 인터페이스명.메소드명(); 으로 호출함*/
         InterProduct.staticMethod();
 
         /* 상수 필드 접근도 인터페이스명.필드명으로 접근함*/
