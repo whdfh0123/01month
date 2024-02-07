@@ -39,6 +39,7 @@ public class Application {
         car.soundHorn();
         car.stop();
         car.soundHorn();
+        // 소방차는 차 이다  , 차는 소방차이다
         //fireCar is a Car(o)  ||||| Car is a FireCar(X)  >> 포함하는 의미의 차이 말이 안된다
         // RacingCar is a Car(O) | Car is a RacingCar(X)  >> 둘 다 상속의 예시를 말로 표현한것
 
