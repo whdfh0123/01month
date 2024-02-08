@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab6dcc70-60f5-4c05-bfbc-d6da9a0a0205" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/src/main/java/com/ogiraffers/section01/object/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/src/main/java/com/ogiraffers/section01/object/run/Appilcation1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/src/main/java/com/ogiraffers/section01/object/run/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/src/main/java/com/ogiraffers/section01/object/run/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/src/main/java/com/ogiraffers/section02/string/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/src/main/java/com/ogiraffers/section02/string/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../chap10-api-lecture-source/src/main/java/com/ogiraffers/section02/string/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/src/main/java/com/hw1/model/dto/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/src/main/java/com/hw1/model/dto/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/src/main/java/com/hw1/model/dto/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pro09_Inherit_prectice-question/src/main/java/com/hw1/run/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../chap07-object-array0lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../chap07-object-array0lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../chap09-ploymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclass/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../chap09-ploymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclass/SmartPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../chap09-ploymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../chap09-ploymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/Product.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2c4eN39LPAyPBCaBOnlIJitfwzc" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/lecture_code/JavaFoundation/chap07-object-array0lecture-source",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-temurin-17.0.10-f644763e9732-8a10ee56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab6dcc70-60f5-4c05-bfbc-d6da9a0a0205" name="Changes" comment="" />
+      <created>1707375234270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707375234270</updated>
+      <workItem from="1707375235313" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
