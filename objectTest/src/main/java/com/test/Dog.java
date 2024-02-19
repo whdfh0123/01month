@@ -38,7 +38,96 @@ public class Dog {
             }
 
         }
+        System.out.println();
     }
+    public void doSomeThingVoid1(String gogo) {
+        switch (gogo) {
+            case "앉아":
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        System.out.println(this.name + "가 앉았다@@@@");
+                    }
+                }
+                break;
+            case "빵":
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        System.out.println(this.name + "가 총 맞은 척을 한다");
+                    }
+                }
+                break;
+            case "기다려":
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        System.out.println(this.name + "가 기다린다");
+                    }
+                }
+                break;
+            default:
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        System.out.println("어떤 재주라도 해본다");
+                    }else if(skill[i].equals(gogo)==false && i==skill.length-1){
+                        System.out.println(this.name + " : 뭔소리야");
+                    }
+                }
+                break;
+        }
+    }
+    public String doSomeThingVoid2(String gogo) {
+        String doTry = "뭐하지";
+        switch (gogo) {
+            case "앉아":
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        doTry = this.name + "가 앉았다@@@@";
+                    }
+                }
+                break;
+            case "빵":
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        doTry = this.name + "가 총 맞은 척을 한다";
+                    }
+                }
+
+                break;
+            case "기다려":
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        doTry = this.name + "가 기다린다";
+                    }
+                }
+                break;
+            default:
+                for (int i = 0; i < skill.length; i++) {
+                    if (skill[i].equals(gogo)) {
+                        doTry = "어떤 재주라도 해본다";
+                    }else if(skill[i].equals(gogo)==false && i==skill.length-1){
+                        doTry = this.name + " : 뭔소리야";
+                    }
+                }
+                break;
+
+
+        }
+        return doTry;
+    }
+    public boolean doSomeThingVoid3(String gogo) {
+        boolean bulga = true;
+
+        for (int i = 0; i < skill.length; i++) {
+            if (skill[i].equals(gogo)) {
+                bulga = true;
+                break;
+            }else {
+                bulga = false;
+            }
+        }
+        return bulga;
+    }
+
+
 
     @Override
     public String toString() {

@@ -1,5 +1,5 @@
 #jdbc driver
-#Wed Feb 14 14:35:19 KST 2024
+#Fri Feb 16 11:57:12 KST 2024
 password=oaafs
 driver=com.mysql.cj.jdbc.Driver
 user=ohgiraffest

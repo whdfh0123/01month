@@ -47,7 +47,7 @@ public class Application1 {
         hmap2.put("two", "mySql");
         hmap2.put("three", "jdbc");
         hmap2.put("four", "html5");
-        hmap2.put("five", "css3");
+        hmap2.put("five", "css3222");
 
         // 이더레이터 쓰면 이더레이터로 반환
         Iterator<String> keyIter = hmap2.keySet().iterator(); //키값을 가져온다 keyset

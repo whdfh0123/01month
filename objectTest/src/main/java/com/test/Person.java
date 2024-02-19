@@ -87,4 +87,14 @@ public class Person {
     public void info(){
         myDog.dogInfo();
     }
+    public void gogo(){
+        System.out.println("어떤 재주를 시켜볼까 : ");
+        String goskill = sc.nextLine();
+        myDog.doSomeThingVoid1(goskill);
+//        if(b==true){
+//            System.out.println("강아지는 "+s+"를 할 수 있어요");
+//        }else if(b==false){
+//            System.out.println("강아지는 "+s+"를 할 수 없어요");
+//        }
+    }
 }
