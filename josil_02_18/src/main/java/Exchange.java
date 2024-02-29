@@ -9,7 +9,9 @@ public class Exchange {
         int chNum; // 환전 여부 저장
         int randomNum;
         int hM; // 얼마 환전할지
-        int total;
+        int total; // 총 환전 금액
+        double exrate;
+
     public void mainPage(){
         System.out.println("오늘의 환율 공시");
         mon[0] = new USD();
@@ -69,8 +71,9 @@ public class Exchange {
                 hM = sc.nextInt();
                 sc.nextLine();
                 if(hM<=((USD)mon[0]).getLimit() && hM>=5){
-                    total = (int)(hM/(((USD)mon[0]).getNotified()+
-                            (((USD)mon[0]).getBuy()-((USD)mon[0]).getNotified())*(1-(((USD)mon[0]).rate)*0.01)));
+                    exrate = (((USD)mon[0]).getNotified()+
+                            (((USD)mon[0]).getBuy()-((USD)mon[0]).getNotified())*(1-(((USD)mon[0]).rate)*0.01));
+                    total = (int)(hM/exrate);
                     System.out.println(hM+"만원을 "+((((USD)mon[0]).rate)+randomNum)+"%우대받아 "+total+((USD)mon[0]).getUnit()+"로 환전했습니다");
                 }else if(hM<5){
                     System.out.println("최소 금액은 5만원 입니다 자동 입력합니다");
@@ -113,22 +116,25 @@ public class Exchange {
                 hM = sc.nextInt();
                 sc.nextLine();
                 if(hM<=((AUD)mon[2]).getLimit() && hM>=5){
-                    total = (int)(hM/(((AUD)mon[2]).getNotified()+
-                            (((AUD)mon[2]).getBuy()-((AUD)mon[2]).getNotified())*(1-(((AUD)mon[2]).rate)*0.1)));
+                    exrate = (((AUD)mon[2]).getNotified()+
+                            (((AUD)mon[2]).getBuy()-((AUD)mon[2]).getNotified())*(1-(((AUD)mon[2]).rate)*0.01));
+                    total = (int)(hM/exrate);
                     System.out.println(hM+"만원을 "+((((AUD)mon[2]).rate)+randomNum)+"%우대받아 "+total+((AUD)mon[2]).getUnit()+"로 환전했습니다");
                 }else if(hM<5){
                     System.out.println("최소 금액은 5만원 입니다 자동 입력합니다");
                     hM = 5;
-                    total = (int)(hM/(((AUD)mon[2]).getNotified()+
-                            (((AUD)mon[2]).getBuy()-((AUD)mon[2]).getNotified())*(1-(((AUD)mon[2]).rate)*0.1)));
+                    exrate = (((AUD)mon[2]).getNotified()+
+                            (((AUD)mon[2]).getBuy()-((AUD)mon[2]).getNotified())*(1-(((AUD)mon[2]).rate)*0.01));
+                    total = (int)(hM/exrate);
                     System.out.println(hM+"만원을 "+((((AUD)mon[2]).rate)+randomNum)+"%우대받아 "+total+((AUD)mon[2]).getUnit()+"로 환전했습니다");
                 }else if(hM>((AUD)mon[2]).getLimit()){
                     System.out.println("호주 달러의 한도는 "+((AUD)mon[2]).getLimit()+"만원 입니다");
                     System.out.println("한도를 넘어 최대 금액으로 자동입력");
                     hM = ((AUD)mon[2]).getLimit();
                     System.out.println((((AUD)mon[2]).rate)*0.01);
-                    total = (int)(hM/(((AUD)mon[2]).getNotified()+
-                            (((AUD)mon[2]).getBuy()-((AUD)mon[2]).getNotified())*(1-(((AUD)mon[2]).rate)*0.01)));
+                    exrate = (((AUD)mon[2]).getNotified()+
+                            (((AUD)mon[2]).getBuy()-((AUD)mon[2]).getNotified())*(1-(((AUD)mon[2]).rate)*0.01));
+                    total = (int)(hM/exrate);
                     System.out.println(hM+"만원을 "+((((AUD)mon[2]).rate)+randomNum)+"%우대받아 "+total+((AUD)mon[2]).getUnit()+"로 환전했습니다");
                 }
                 break;
